@@ -29,8 +29,8 @@ const userSchema = new Schema({
         index : true
     },
     avatar:{
-        type :String,  //cloudinary urls
-        required : true
+        type :String //cloudinary urls
+
     },
     coverImage : {
         type:String
